@@ -48,6 +48,15 @@ docker compose up -d
 
 Uptime Kuma is now running on all network interfaces (e.g. http://localhost:3001 or http://your-ip:3001).
 
+### Quick Start ภาษาไทย
+
+```powershell
+cd "C:\Uptime Kuma\uptime-kuma-master"
+docker compose up -d
+```
+
+เปิดใช้งานที่ `http://localhost:3001` หรือให้เพื่อนในทีมเข้า `http://<IP-เครื่องนี้>:3001`
+
 > [!WARNING]
 > File Systems like **NFS** (Network File System) are **NOT** supported. Please map to a local directory or volume.
 
