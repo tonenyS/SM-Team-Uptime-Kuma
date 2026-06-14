@@ -50,12 +50,18 @@ Uptime Kuma is now running on all network interfaces (e.g. http://localhost:3001
 
 ### Quick Start ภาษาไทย
 
+Uptime Kuma คือระบบมอนิเตอร์สถานะเว็บไซต์และบริการต่าง ๆ สำหรับทีม IT เช่น HTTP(s), Ping, TCP และการแจ้งเตือนเมื่อระบบล่ม
+
+วิธีที่ง่ายที่สุดคือรันด้วย Docker Compose:
+
 ```powershell
 cd "C:\Uptime Kuma\uptime-kuma-master"
 docker compose up -d
 ```
 
 เปิดใช้งานที่ `http://localhost:3001` หรือให้เพื่อนในทีมเข้า `http://<IP-เครื่องนี้>:3001`
+
+ข้อมูลระบบจะถูกเก็บไว้ในโฟลเดอร์ `data` ของโปรเจกต์นี้ หากต้องการหยุดระบบให้ใช้ `docker compose down`
 
 > [!WARNING]
 > File Systems like **NFS** (Network File System) are **NOT** supported. Please map to a local directory or volume.
