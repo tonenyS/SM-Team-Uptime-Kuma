@@ -52,6 +52,12 @@ Uptime Kuma is now running on all network interfaces (e.g. http://localhost:3001
 
 Uptime Kuma คือระบบมอนิเตอร์สถานะเว็บไซต์และบริการต่าง ๆ สำหรับทีม IT เช่น HTTP(s), Ping, TCP และการแจ้งเตือนเมื่อระบบล่ม
 
+สิ่งที่ต้องติดตั้ง:
+
+- Docker Desktop และ Docker Compose สำหรับการรันใช้งานจริงแบบง่าย
+- Git สำหรับ clone/push โปรเจกต์
+- Node.js 20+, npm และ Python 3 เฉพาะกรณีรันแบบ local development โดยไม่ใช้ Docker
+
 วิธีที่ง่ายที่สุดคือรันด้วย Docker Compose:
 
 ```powershell
